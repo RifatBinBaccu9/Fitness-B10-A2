@@ -149,14 +149,23 @@ nav {
     display: flex;
     width: 85%;
     margin: auto;
+    justify-content: space-between;
 }
 /* banner left section */
 .banner-left{
     color: #fff;
 }
 .banner-left h2{
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 800;
+    font-family: "Inter", sans-serif;
+    width: 50%;
+}
+.banner-left h2 span{
+    font-family: "Dancing Script", cursive;
+}
+.banner-left p{
+    
 }
 /* banner right section */
 .banner-right{
