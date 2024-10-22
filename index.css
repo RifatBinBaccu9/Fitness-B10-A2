@@ -335,10 +335,18 @@ position: relative;
     width: 65%;
     margin: auto;
     text-align: center;
-    padding: 30px 0;
+    padding: 20px 0;
 }
 
 /* habits-card */
+.card-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 40px 0;
+}
+.habits-card{
+    text-align: center;
+}
 .habits-card img{
   border-radius: 50%;
 }
@@ -346,9 +354,39 @@ position: relative;
   color: #fff;
   font-size: 22px;
   font-weight: 600;
+  padding: 10px 0;
 }
 .habits-card p{
   color: #fff;
   font-size: 16px;
   font-weight: 400;
+  width: 70%;
+  margin: auto;
 }
+
+/*Responsive habits section */
+@media screen and (max-width: 576px) {
+    .habits{
+        width: 90%;
+        margin: 90px auto;
+    }
+    .habit-section p{
+        width: 75%;
+        margin: auto;
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    /* habits-card */
+    .card-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 40px 0;
+    }
+    .habits-card{
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+}
+/* Habits section end */
