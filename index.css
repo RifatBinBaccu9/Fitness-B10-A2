@@ -61,12 +61,12 @@ nav {
     border-radius: 50px;
 }
 
-/* Hide checkbox by default */
+/* Hide checkbox */
 #checkbox_toggle {
     display: none;
 }
 
-/* Style for the hamburger and cancel icons */
+/* Style hamburger and icons */
 .hamburger i {
     font-size: 28px;
     cursor: pointer;
@@ -79,11 +79,16 @@ nav {
     display: none;
 }
 
-/* Responsive design */
+/* Responsive navber */
 @media (max-width: 768px) {
 
+    .nav-title {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
     header {
-        width: 100%;
+        width: 90%;
         margin: auto;
     }
 
@@ -99,10 +104,9 @@ nav {
         flex-direction: column;
         background-color: #333;
         position: absolute;
-        top: 60px;
+        top: 70px;
         right: 0;
-        width: 100%;
-        border-radius: 0;
+        width: 30%;
         padding: 0;
     }
 
@@ -117,12 +121,15 @@ nav {
         border-bottom: 1px solid #2F2F2F;
     }
 
-    /* Display the hamburger icon */
+    .nav-home {
+        border-radius: 0;
+    }
+    /* Display hamburger icon */
     .hamburger .fa-bars {
         display: block;
     }
 
-    /* Show the cancel (close) icon when menu is opened */
+    /* Show cancel icon menu  opened */
     #checkbox_toggle:checked + .hamburger .fa-bars {
         display: none;
     }
@@ -131,7 +138,7 @@ nav {
         display: block;
     }
 
-    /* Show the menu when the checkbox is checked */
+    /* Show menu checkbox checked */
     #checkbox_toggle:checked + .hamburger + .menu {
         display: flex;
     }
