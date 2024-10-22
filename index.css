@@ -337,3 +337,18 @@ position: relative;
     text-align: center;
     padding: 30px 0;
 }
+
+/* habits-card */
+.habits-card img{
+  border-radius: 50%;
+}
+.habits-card h3{
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+}
+.habits-card p{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
