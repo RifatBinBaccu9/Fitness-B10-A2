@@ -318,16 +318,22 @@ position: relative;
 
 
 /* Habits section start */
+.habits{
+    width: 85%;
+    margin: 90px auto;
+}
 .habit-section h1{
     color: #fff;
-    font-size: 40px;
+    font-size: 46px;
     font-weight: 800;
     text-align: center;
 }
 .habit-section p{
-    color: #fff;
+    color: #808080;
     font-size: 20px;
     font-weight:500;
-    width: 70%;
+    width: 65%;
     margin: auto;
+    text-align: center;
+    padding: 30px 0;
 }
