@@ -40,6 +40,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 20px 0px;
 }
 
 .nav-pages ul li {
@@ -65,11 +66,17 @@ nav {
     display: none;
 }
 
-/* Style for the hamburger menu icon */
-.hamburger {
-    display: none;
+/* Style for the hamburger and cancel icons */
+.hamburger i {
     font-size: 28px;
     cursor: pointer;
+}
+
+.hamburger .fa-bars {
+    display: none;
+}
+.hamburger .fa-times {
+    display: none;
 }
 
 /* Responsive design */
@@ -83,6 +90,7 @@ nav {
     .nav-pages {
         width: 100%;
         display: flex;
+        border: none;
         justify-content: flex-end;
     }
 
@@ -110,7 +118,16 @@ nav {
     }
 
     /* Display the hamburger icon */
-    .hamburger {
+    .hamburger .fa-bars {
+        display: block;
+    }
+
+    /* Show the cancel (close) icon when menu is opened */
+    #checkbox_toggle:checked + .hamburger .fa-bars {
+        display: none;
+    }
+
+    #checkbox_toggle:checked + .hamburger .fa-times {
         display: block;
     }
 
