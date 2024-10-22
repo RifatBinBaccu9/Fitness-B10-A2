@@ -145,6 +145,17 @@ nav {
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
 /* banner section start*/
 .banner-section{
     display: flex;
@@ -157,20 +168,20 @@ nav {
     color: #fff;
 }
 .banner-left h2{
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 800;
     font-family: "Inter", sans-serif;
-    width: 50%;
+    width: 65%;
     padding-top: 120px;
 }
 .banner-left h2 span{
     font-family: "Dancing Script", cursive;
 }
 .banner-left p{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     color: #8C8C8C;
-    width: 53%;
+    width: 65%;
     padding: 30px 0;
 }
 .bnner-btn-left{
@@ -178,7 +189,7 @@ nav {
     border: 1px solid #DB503A;
     padding: 10px 20px;
     border-radius: 50px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     background: #DB503A;
     margin-right: 15px;
@@ -188,7 +199,7 @@ nav {
     border: 1px solid #fff;
     padding: 10px 20px;
     border-radius: 50px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     background: #000;
 }
@@ -197,14 +208,16 @@ nav {
 .banner-right{
 position: relative;
 }
-
+.banner-right img{
+    margin-right: 50px;
+}
 .banner-card-left{
     border-radius: 10px;
-    padding: 15px;
+    padding: 15px 30px;
     display: flex;
     position: absolute;
     bottom: 126px;
-    left: -46px;
+    left: -80px;
     background: #2e2b2b;
     opacity: 0.8;
     gap: 10px;
@@ -235,7 +248,7 @@ position: relative;
     border-radius: 10px;
     padding: 15px;
     position: absolute;
-    top: 126px;
+    top: 150px;
     right: 0;
     background: #1a1818;
     opacity: 0.8;
@@ -253,5 +266,37 @@ position: relative;
 
 /*Responsive banner section */
 @media screen and (max-width: 576px) {
+    .banner-section{
+        width: 90%;
+        margin: auto;
+    } 
+
+    /* banner left section */
+    .banner-left h2{
+        font-size: 50px;
+        font-weight: 600;
+        width: 90%;
+        margin: auto;
+        padding-top: 120px;
+    }
+    .banner-left p{
+        font-size: 20px;
+        font-weight: 400;
+        width: 90%;
+        margin: auto;
+        padding: 30px 0;
+    }
     
+.bnner-btn-left{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 15px;
+}
+.bnner-btn-right{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
 }
