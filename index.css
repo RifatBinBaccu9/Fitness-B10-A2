@@ -170,7 +170,25 @@ nav {
     color: #8C8C8C;
     width: 53%;
 }
-
+.bnner-btn-left{
+    color: #fff;
+    border: 1px solid #DB503A;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    background: #DB503A;
+    margin-right: 15px;
+}
+.bnner-btn-right{
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    background: #000;
+}
 /* banner right section */
 .banner-right{
     background-image: url('./images/Images2.png');
