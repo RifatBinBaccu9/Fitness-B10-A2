@@ -144,4 +144,16 @@ nav {
     }
 }
 
-/* banner section */
+/* banner section start*/
+.banner-left{
+    color: #fff;
+}
+
+.banner-right{
+    background-image: url('./images/Images2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    color: #fff;
+    height: 400px;
+}
