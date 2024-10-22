@@ -145,10 +145,20 @@ nav {
 }
 
 /* banner section start*/
+.banner-section{
+    display: flex;
+    width: 85%;
+    margin: auto;
+}
+/* banner left section */
 .banner-left{
     color: #fff;
 }
-
+.banner-left h2{
+    font-size: 50px;
+    font-weight: 800;
+}
+/* banner right section */
 .banner-right{
     background-image: url('./images/Images2.png');
     background-repeat: no-repeat;
