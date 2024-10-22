@@ -1,45 +1,52 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-/*background colore section */
-.bg-colore-add{
+/* Background color section */
+.bg-colore-add {
     background: #000;
+    width: 100%;
 }
 
-/* header section start */
-header{
+/* Header section */
+header {
     width: 85%;
     margin: auto;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
-    padding: 20px 0px;
+    padding: 20px 0;
 }
-/* nev title section start*/
-.nav-title{
+
+/* Nav title */
+.nav-title {
     color: #DB503A;
     font-family: "Inter", sans-serif;
     font-size: 30px;
     font-weight: 800;
 }
-/* nev title section end*/
 
-/* nav pages section start */
-.nav-pages{
+/* Nav pages */
+.nav-pages {
     border: 1px solid #2F2F2F;
     border-radius: 50px;
+    width: 42%;
 }
-.nav-pages ul{
+
+.nav-pages ul {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
-.nav-pages ul li{
+
+.nav-pages ul li {
     list-style: none;
-    padding: 20px 5px;
 }
-.nav-pages ul li a{
+
+.nav-pages ul li a {
     color: #fff;
     font-family: "Inter", sans-serif;
     font-size: 18px;
@@ -47,9 +54,68 @@ nav{
     text-decoration: none;
     padding: 15px 25px;
 }
-.nav-home{
+
+.nav-home {
     background: #E6533C;
     border-radius: 50px;
 }
 
+/* Hide checkbox by default */
+#checkbox_toggle {
+    display: none;
+}
 
+/* Style for the hamburger menu icon */
+.hamburger {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+
+    header {
+        width: 100%;
+        margin: auto;
+    }
+
+    .nav-pages {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .nav-pages ul {
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .nav-pages ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-pages ul li a {
+        display: block;
+        padding: 15px 0;
+        border-bottom: 1px solid #2F2F2F;
+    }
+
+    /* Display the hamburger icon */
+    .hamburger {
+        display: block;
+    }
+
+    /* Show the menu when the checkbox is checked */
+    #checkbox_toggle:checked + .hamburger + .menu {
+        display: flex;
+    }
+}
