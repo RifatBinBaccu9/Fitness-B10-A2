@@ -9,6 +9,10 @@
 }
 
 /* header section start */
+header{
+    width: 85%;
+    margin: auto;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -17,6 +21,8 @@ nav{
 .nav-title{
     color: #DB503A;
     font-family: "Inter", sans-serif;
+    font-size: 30px;
+    font-weight: 800;
 }
 /* nev title section end*/
 
@@ -26,4 +32,8 @@ nav{
 }
 .nav-pages ul li{
     color: #fff;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
 }
