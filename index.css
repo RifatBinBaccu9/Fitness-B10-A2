@@ -165,8 +165,12 @@ nav {
     font-family: "Dancing Script", cursive;
 }
 .banner-left p{
-    
+    font-size: 18px;
+    font-weight: 400;
+    color: #8C8C8C;
+    width: 53%;
 }
+
 /* banner right section */
 .banner-right{
     background-image: url('./images/Images2.png');
