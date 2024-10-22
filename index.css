@@ -41,6 +41,7 @@ nav {
     align-items: center;
     justify-content: space-around;
     padding: 20px 0px;
+    z-index: 100;
 }
 
 .nav-pages ul li {
@@ -80,7 +81,7 @@ nav {
 }
 
 /* Responsive navber */
-@media (max-width: 768px) {
+@media screen and (max-width: 576px) {
 
     .nav-title {
         font-size: 18px;
@@ -248,4 +249,9 @@ position: relative;
     color: #A7A5A2;
     font-size: 16px;
     font-weight: 400;
+}
+
+/*Responsive banner section */
+@media screen and (max-width: 576px) {
+    
 }
