@@ -30,18 +30,26 @@ nav{
 /* nav pages section start */
 .nav-pages{
     border: 1px solid #2F2F2F;
-    border-radius: 10px;
+    border-radius: 50px;
 }
 .nav-pages ul{
     display: flex;
 }
 .nav-pages ul li{
-    color: #fff;
     list-style: none;
+    padding: 20px 5px;
+}
+.nav-pages ul li a{
+    color: #fff;
     font-family: "Inter", sans-serif;
     font-size: 18px;
     font-weight: 600;
-    padding: 20px 30px;
+    text-decoration: none;
+    padding: 15px 25px;
+}
+.nav-home{
+    background: #E6533C;
+    border-radius: 50px;
 }
 
 
