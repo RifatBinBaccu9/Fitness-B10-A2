@@ -16,6 +16,7 @@ header{
 nav{
     display: flex;
     justify-content: space-between;
+    padding: 20px 0px;
 }
 /* nev title section start*/
 .nav-title{
@@ -27,6 +28,10 @@ nav{
 /* nev title section end*/
 
 /* nav pages section start */
+.nav-pages{
+    border: 1px solid #2F2F2F;
+    border-radius: 10px;
+}
 .nav-pages ul{
     display: flex;
 }
@@ -36,4 +41,7 @@ nav{
     font-family: "Inter", sans-serif;
     font-size: 18px;
     font-weight: 600;
+    padding: 20px 30px;
 }
+
+
