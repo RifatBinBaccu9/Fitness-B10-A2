@@ -8,8 +8,22 @@
     background: #000;
 }
 
-/* nev title section */
+/* header section start */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+/* nev title section start*/
 .nav-title{
     color: #DB503A;
     font-family: "Inter", sans-serif;
+}
+/* nev title section end*/
+
+/* nav pages section start */
+.nav-pages ul{
+    display: flex;
+}
+.nav-pages ul li{
+    color: #fff;
 }
